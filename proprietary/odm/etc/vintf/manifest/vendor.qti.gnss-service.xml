@@ -5,7 +5,9 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 <manifest version="1.0" type="device">
     <hal format="aidl">
         <name>vendor.qti.gnss</name>
-        <version>3</version>
+        <!-- MIUI MOD: GPS_StabilityEnhance -->
+        <version>6</version>
+        <!-- END GPS_StabilityEnhance -->
         <fqname>ILocAidlGnss/default</fqname>
     </hal>
 </manifest>
